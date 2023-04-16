@@ -1,0 +1,52 @@
+*{
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container{
+  width: 70vw;
+  height: 50vh;
+  border: 1px solid black;
+  border-radius: 350px;
+  position: relative;
+  background-color: rgba(238, 238, 238, 0.677);
+  transition: all 2s;
+}
+
+.containerMove{
+  width: 70vw;
+  height: 50vh;
+  border: 1px solid black;
+  border-radius: 350px;
+  position: relative;
+  background-color: rgba(255, 166, 0, 0.761);
+  transition: all 2s;
+}
+
+.toggle{
+  width: 30vw;
+  height: 50vh;
+  border-radius: 50%;
+  position:absolute;
+  transition: all 1s;
+  background-color: rgba(0, 0, 255, 0.711);
+}
+
+.moveElement{
+  transform: translateX(40vw);
+
+  width: 30vw;
+  height: 50vh;
+  border-radius: 50%;
+  position:absolute;
+  transition: all 1s;
+  background-color: rgba(0, 0, 255, 0.771);
+}
